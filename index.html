@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Thanh Văn Nguyễn| Profile</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- VIDEO BACKGROUND -->
+<video class="bg-video" autoplay muted loop playsinline>
+    <source src="background.mp4" type="video/mp4">
+</video>
+
+<!-- LỚP PHỦ VIDEO -->
+<div class="video-overlay"></div>
+
+<!-- NHẠC NỀN -->
+<audio id="bgMusic" autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- NÚT BẬT/TẮT NHẠC -->
+<button id="musicBtn" class="music-btn">🔇</button>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">Thanh Hải Phòng<span>.</span></a>
+
+        <nav class="nav">
+            <a href="#home">Trang chủ</a>
+            <a href="#about">Giới thiệu</a>
+            <a href="#skills">Kỹ năng</a>
+            <a href="#contact">Liên hệ</a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home">Trang chủ</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#skills">Kỹ năng</a>
+        <a href="#contact">Liên hệ</a>
+    </div>
+
+
+    <!-- HOME -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <div class="avatar-wrapper">
+                <img src="avatar.jpg" alt="Avatar" class="avatar">
+                <span class="online"></span>
+            </div>
+
+            <p class="welcome">WELCOME TO MY PROFILE</p>
+
+            <h1>Thanh</h1>
+
+            <div class="typing">
+                Tôi là <span id="typingText"></span>
+            </div>
+
+            <p class="description">
+                Chào mừng bạn đến với trang cá nhân của tôi.
+                Đây là nơi mình chia sẻ về bản thân, sở thích,
+                những dự án và những điều mình đang theo đuổi.
+            </p>
+
+            <div class="buttons">
+                <a href="#about" class="btn primary">
+                    Xem thêm
+                </a>
+
+                <a href="#contact" class="btn secondary">
+                    Liên hệ
+                </a>
+            </div>
+
+            <!-- Social -->
+            <div class="socials">
+
+                <div class="socials">
+
+    <a href="https://www.facebook.com/minhthanh.contact" target="_blank" title="Facebook">
+        <span>f</span>
+    </a>
+
+    <a href="https://www.tiktok.com/@" target="_blank" title="TikTok">
+        <span>♪</span>
+    </a>
+
+    <a href="https://discord.com/users/USER_ID" target="_blank" title="Discord">
+        <span>◉</span>
+    </a>
+
+    <a href="https://github.com/USERNAME" target="_blank" title="GitHub">
+        <span>⌘</span>
+    </a>
+
+    </div>
+
+        </div>
+
+        <div class="scroll-down">
+            <span></span>
+            Scroll Down
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+
+        <div class="section-title">
+            <span>01</span>
+            <h2>Giới thiệu</h2>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-card">
+                <div class="card-icon">👤</div>
+
+                <h3>Về tôi</h3>
+
+                <p>
+                    Xin chào! Mình là <strong>Thanh</strong>.
+                    Mình yêu thích công nghệ, game, thiết kế website
+                    và khám phá những thứ mới.
+                </p>
+
+                <p>
+                    Mình luôn cố gắng học hỏi và phát triển bản thân
+                    từng ngày.
+                </p>
+            </div>
+
+            <div class="about-info">
+
+                <div class="info-item">
+                    <span>Tên</span>
+                    <strong>Thanh Văn Nguyễn</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Công việc</span>
+                    <strong>Developer / Creator</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Sở thích</span>
+                    <strong>Code • Game • Design</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Trạng thái</span>
+                    <strong class="status">
+                        <i></i> Online
+                    </strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+
+        <div class="section-title">
+            <span>02</span>
+            <h2>Kỹ năng</h2>
+        </div>
+
+        <div class="skills">
+
+            <div class="skill-card">
+                <div class="skill-top">
+                    <h3>HTML</h3>
+                    <span>90%</span>
+                </div>
+
+                <div class="progress">
+                    <div style="width: 90%"></div>
+                </div>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-top">
+                    <h3>CSS</h3>
+                    <span>85%</span>
+                </div>
+
+                <div class="progress">
+                    <div style="width: 85%"></div>
+                </div>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-top">
+                    <h3>JavaScript</h3>
+                    <span>75%</span>
+                </div>
+
+                <div class="progress">
+                    <div style="width: 75%"></div>
+                </div>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-top">
+                    <h3>Java</h3>
+                    <span>70%</span>
+                </div>
+
+                <div class="progress">
+                    <div style="width: 70%"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECT -->
+    <section class="section">
+
+        <div class="section-title">
+            <span>03</span>
+            <h2>Dự án</h2>
+        </div>
+
+        <div class="projects">
+
+            <div class="project-card">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <h3>Personal Website</h3>
+
+                <p>
+                    Website profile cá nhân với giao diện hiện đại,
+                    responsive và nhiều hiệu ứng.
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <h3>Game Project</h3>
+
+                <p>
+                    Một dự án game cá nhân đang được phát triển
+                    và hoàn thiện.
+                </p>
+
+                <div class="tags">
+                    <span>Java</span>
+                    <span>Game</span>
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">
+                    03
+                </div>
+
+                <h3>Future Project</h3>
+
+                <p>
+                    Một dự án mới đang được lên ý tưởng.
+                    Coming soon...
+                </p>
+
+                <div class="tags">
+                    <span>Coming Soon</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+
+        <div class="section-title">
+            <span>04</span>
+            <h2>Liên hệ</h2>
+        </div>
+
+        <p class="contact-text">
+            Bạn có thể liên hệ với mình thông qua các nền tảng bên dưới.
+        </p>
+
+        <div class="contact-buttons">
+
+            <a href="#" class="contact-btn">
+                <span>Facebook</span>
+                <small>Liên hệ với tôi</small>
+            </a>
+
+            <a href="#" class="contact-btn">
+                <span>Discord</span>
+                <small>Chat với tôi</small>
+            </a>
+
+            <a href="#" class="contact-btn">
+                <span>TikTok</span>
+                <small>Follow tôi</small>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-logo">
+            ZONE<span>.</span>
+        </div>
+
+        <p>
+            © 2026 ThanhVanNguyen. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
